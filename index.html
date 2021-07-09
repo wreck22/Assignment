@@ -3,83 +3,88 @@
   <title>Assignment</title>
   <link rel="stylesheet" href="mystyle.css" />
   <body>
-    <h4>Alerts</h4>
+    <h2>Alerts</h2>
     <div>
-      <button role="alert">This is a primary alert-check it out!</button>
+      <button role="alert" class="alert">
+        This is a primary alert-check it out!
+      </button>
     </div>
     <div>
-      <h4>Buttons</h4>
-      <button type="button">Button primary</button>
-      <button type="button">Button secondary</button><br />
-      <button type="button">Button success</button>
-      <button type="button">Button danger</button><br />
-      <button type="button">Button warning</button>
-      <button type="button">Button info</button><br />
-      <button type="button">Button light</button>
-      <button type="button">Button dark</button>
+      <h2>Buttons</h2>
+      <button type="button" class="primary">Button primary</button>
+      <button type="button" class="secondary">Button secondary</button>
+      <button type="button" class="success">Button success</button>
+      <button type="button" class="danger">Button danger</button>
+      <button type="button" class="warning">Button warning</button>
+      <button type="button" class="info">Button info</button>
+      <button type="button" class="light">Button light</button>
+      <button type="button" class="dark">Button dark</button>
     </div>
     <div>
-      <h4>Buttons outline</h4>
-      <button type="button">Button primary</button>
-      <button type="button">Button secondary</button><br />
-      <button type="button">Button success</button>
-      <button type="button">Button danger</button><br />
-      <button type="button">Button warning</button>
-      <button type="button">Button info</button><br />
-      <button type="button">Button light</button>
-      <button type="button">Button dark</button>
+      <h2>Buttons outline</h2>
+      <button type="button" class="primary1">Button primary</button>
+      <button type="button" class="secondary1">Button secondary</button>
+      <button type="button" class="success1">Button success</button>
+      <button type="button" class="danger1">Button danger</button>
+      <button type="button" class="warning1">Button warning</button>
+      <button type="button" class="info1">Button info</button>
+      <button type="button" class="light1">Button light</button>
+      <button type="button" class="dark1">Button dark</button>
     </div>
     <div>
-      <h4>Buttons size</h4>
-      <button type="button">Large button</button>
-      <button type="button">Large button</button><br />
-      <button type="button">Small button</button>
-      <button type="button">Small button</button><br />
+      <h2>Buttons size</h2>
+      <button type="button" class="large1">Large button</button>
+      <button type="button" class="large2">Large button</button><br />
+      <button type="button" class="small1">Small button</button>
+      <button type="button" class="small2">Small button</button><br />
     </div>
-    <div>
-      <h4>Buttons Block</h4>
-      <button type="button">Block level button</button>
-      <button type="button">Block level button</button>
+    <h2>Buttons Block</h2>
+    <div class="tank">
+      <button type="button" class="level1">Block level button</button><br />
+      <button type="button" class="level2">Block level button</button>
     </div>
-    <h4>Cards</h4>
-    <div>
+    <h2>Cards</h2>
+    <div class="container">
       <img src="photos/card.svg" /><br />
-      <h5>Card Title</h5>
+      <div class="cardtitle">
+      <h3>Card Title</h3>
       <p>
         Some quick example text to build on the card title and make up the bulk
         of the cards content
       </p>
-      <button type="submit" value="Go somewhere">Go somewhere</button>
+      <button type="submit" value="Go somewhere" class="primary">Go somewhere</button>
+      </div>
     </div>
-    <h4>Feature Cards</h4>
-    <div>
-      <div>Featured</div>
-      <div>
-        <h5>Special title treatment</h5>
+    <h2>Feature Cards</h2>
+      <div class="tank2">Featured</div>
+      <div class="container2">
+        <h3>Special title treatment</h3>
         <p>
           With supporting text below as a natural lead-in to additional content.
         </p>
-        <button type="submit" value="Go somewhere">Go somewhere</button>
+        <button type="submit" class="primary" value="Go somewhere">Go somewhere</button>
       </div>
-    </div>
     <form>
-      <div>
-        <h4>Login Form</h4>
+        <h2>Login Form</h2>
+        <div>
         Email address<br />
-        <input type="email" placeholder="Enter email" /><br />
-        <label>We will never share your email with anyone else.</label><br />
+        <input type="email" class="text" placeholder="Enter email" /><br />
+        <label class="label">We will never share your email with anyone else.</label><br /><br>
         Password<br />
-        <input type="password" placeholder="Password" /><br />
-        <input type="checkbox" /><label>Check me out</label><br />
-        <input type="submit" value="Submit" />
+        <input type="password" class="text" placeholder="Password" /><br />
+        <br>
+        <input type="checkbox" /><label>Check me out</label><br /><br>
+        <input type="submit" class="primary" value=Submit />
       </div>
     </form>
     <form>
       <div>
-        <h4>Forms size</h4>
-        <input type="text" placeholder="Large text" /><br />
-        <input type="text" placeholder="Normal text" /><br />
-        <input type="text" placeholder="Small text" />
+        <h2>Forms size</h2>
+        <input type="text" class="txtl" placeholder="Large text" /><br />
+        <br>
+        <input type="text" class="txtn" placeholder="Normal text" /><br />
+        <br>
+        <input type="text" class="txts" placeholder="Small text" />
       </div>
     </form>
   </body>
