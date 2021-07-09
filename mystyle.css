@@ -13,6 +13,7 @@ body {
   margin: 0px 200px 50px 200px;
   width: max-content;
   padding: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
 .primary {
   background-color: #007bff;
@@ -23,6 +24,10 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.primary:hover {
+  background-color: rgb(4, 103, 216);
+  cursor: pointer;
+}
 .secondary {
   background-color: gray;
   font-size: medium;
@@ -31,6 +36,10 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.secondary:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
 }
 .success {
   background-color: #28a745;
@@ -41,6 +50,10 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.success:hover {
+  background-color: green;
+  cursor: pointer;
+}
 .danger {
   background-color: #dc3545;
   font-size: medium;
@@ -50,14 +63,22 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.danger:hover {
+  background-color: rgb(180, 5, 5);
+  cursor: pointer;
+}
 .warning {
   background-color: #ffc107;
   font-size: medium;
   border: none;
-  color: white;
+  color: black;
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.warning:hover {
+  background-color: rgb(161, 161, 25);
+  cursor: pointer;
 }
 .info {
   background-color: #17a2b8;
@@ -68,14 +89,22 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.info:hover {
+  background-color: #12889b;
+  cursor: pointer;
+}
 .light {
   background-color: #f8f9fa;
   font-size: medium;
   border: none;
-  color: white;
+  color: black;
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.light:hover {
+  background-color: #c3c3c4;
+  cursor: pointer;
 }
 .dark {
   background-color: #343a40;
@@ -86,6 +115,9 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.dark:hover {
+  cursor: pointer;
+}
 .primary1 {
   background-color: white;
   font-size: medium;
@@ -94,6 +126,11 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.primary1:hover {
+  background-color: #007bff;
+  cursor: pointer;
+  color: white;
 }
 .secondary1 {
   background-color: white;
@@ -104,6 +141,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.secondary1:hover {
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+}
 .success1 {
   background-color: white;
   font-size: medium;
@@ -112,6 +154,11 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.success1:hover {
+  background-color: #28a745;
+  cursor: pointer;
+  color: white;
 }
 .danger1 {
   background-color: white;
@@ -122,6 +169,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.danger1:hover {
+  background-color: #dc3545;
+  cursor: pointer;
+  color: white;
+}
 .warning1 {
   background-color: white;
   font-size: medium;
@@ -130,6 +182,11 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.warning1:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+  color: black;
 }
 .info1 {
   background-color: white;
@@ -140,6 +197,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.info1:hover {
+  background-color: #17a2b8;
+  cursor: pointer;
+  color: white;
+}
 .light1 {
   background-color: white;
   font-size: medium;
@@ -148,6 +210,11 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.light1:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+  color: black;
 }
 .dark1 {
   background-color: white;
@@ -158,6 +225,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.dark1:hover {
+  background-color: #343a40;
+  cursor: pointer;
+  color: white;
+}
 .large1 {
   background-color: #007bff;
   font-size: larger;
@@ -166,6 +238,11 @@ body {
   padding: 15px 15px 10px 15px;
   border-radius: 5px;
   margin: 2px;
+}
+.large1:hover {
+  background-color: rgb(4, 103, 216);
+  cursor: pointer;
+  color: white;
 }
 .large2 {
   background-color: gray;
@@ -176,6 +253,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.large2:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
+  color: white;
+}
 .small1 {
   background-color: #007bff;
   font-size: small;
@@ -185,6 +267,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.small1:hover {
+  background-color: rgb(4, 103, 216);
+  cursor: pointer;
+  color: white;
+}
 .small2 {
   background-color: gray;
   font-size: small;
@@ -193,6 +280,11 @@ body {
   padding: 13px 13px 10px 13px;
   border-radius: 5px;
   margin: 2px;
+}
+.small2:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
+  color: white;
 }
 .tank {
   background-color: whitesmoke;
@@ -209,6 +301,11 @@ body {
   border-radius: 5px;
   margin: 2px;
 }
+.level2:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
+  color: white;
+}
 .level1 {
   background-color: #007bff;
   font-size: larger;
@@ -218,6 +315,11 @@ body {
   padding: 15px 15px 10px 15px;
   border-radius: 5px;
   margin: 2px;
+}
+.level1:hover {
+  background-color: rgb(4, 103, 216);
+  cursor: pointer;
+  color: white;
 }
 .container {
   width: 285px;
