@@ -3,7 +3,9 @@
   width: 1100px;
   font-size: medium;
   height: 50px;
-  border: none;
+  border-style: solid;
+  border-color: #cce5ff;
+  border-width: medium;
   border-radius: 3px;
   color: #0040a5;
   text-align: left;
@@ -28,6 +30,10 @@ body {
   background-color: rgb(4, 103, 216);
   cursor: pointer;
 }
+.primary:focus {
+  background-color: rgb(4, 103, 216);
+  box-shadow: 0px 0px 3px 3px #9ec6f0;
+}
 .secondary {
   background-color: gray;
   font-size: medium;
@@ -40,6 +46,10 @@ body {
 .secondary:hover {
   background-color: rgb(90, 90, 90);
   cursor: pointer;
+}
+.secondary:focus {
+  background-color: rgb(90, 90, 90);
+  box-shadow: 0px 0px 2px 2px gray;
 }
 .success {
   background-color: #28a745;
@@ -54,6 +64,10 @@ body {
   background-color: green;
   cursor: pointer;
 }
+.success:focus {
+  background-color: green;
+  box-shadow: 0px 0px 2px 2px #28a745;
+}
 .danger {
   background-color: #dc3545;
   font-size: medium;
@@ -66,6 +80,10 @@ body {
 .danger:hover {
   background-color: rgb(180, 5, 5);
   cursor: pointer;
+}
+.danger:focus {
+  background-color: rgb(180, 5, 5);
+  box-shadow: 0px 0px 2px 2px #dc3545;
 }
 .warning {
   background-color: #ffc107;
@@ -80,6 +98,10 @@ body {
   background-color: rgb(161, 161, 25);
   cursor: pointer;
 }
+.warning:focus {
+  background-color: rgb(161, 161, 25);
+  box-shadow: 0px 0px 2px 2px #ffc107;
+}
 .info {
   background-color: #17a2b8;
   font-size: medium;
@@ -92,6 +114,10 @@ body {
 .info:hover {
   background-color: #12889b;
   cursor: pointer;
+}
+.info:focus {
+  background-color: #12889b;
+  box-shadow: 0px 0px 2px 2px #17a2b8;
 }
 .light {
   background-color: #f8f9fa;
@@ -106,6 +132,10 @@ body {
   background-color: #c3c3c4;
   cursor: pointer;
 }
+.light:focus {
+  background-color: #c3c3c4;
+  box-shadow: 0px 0px 2px 2px #c3c3c4;
+}
 .dark {
   background-color: #343a40;
   font-size: medium;
@@ -117,6 +147,9 @@ body {
 }
 .dark:hover {
   cursor: pointer;
+}
+.dark:focus {
+  box-shadow: 0px 0px 2px 2px gray;
 }
 .primary1 {
   background-color: white;
@@ -132,6 +165,11 @@ body {
   cursor: pointer;
   color: white;
 }
+.primary1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #9ec6f0;
+  color: #007bff;
+}
 .secondary1 {
   background-color: white;
   font-size: medium;
@@ -145,6 +183,11 @@ body {
   background-color: gray;
   cursor: pointer;
   color: white;
+}
+.secondary1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px gray;
+  color: gray;
 }
 .success1 {
   background-color: white;
@@ -160,6 +203,11 @@ body {
   cursor: pointer;
   color: white;
 }
+.success1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #28a745;
+  color:#28a745;
+}
 .danger1 {
   background-color: white;
   font-size: medium;
@@ -173,6 +221,11 @@ body {
   background-color: #dc3545;
   cursor: pointer;
   color: white;
+}
+.danger1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #dc3545;
+  color: #dc3545;
 }
 .warning1 {
   background-color: white;
@@ -188,6 +241,11 @@ body {
   cursor: pointer;
   color: black;
 }
+.warning1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #ffc107;
+  color:#ffc107;
+}
 .info1 {
   background-color: white;
   font-size: medium;
@@ -201,6 +259,11 @@ body {
   background-color: #17a2b8;
   cursor: pointer;
   color: white;
+}
+.info1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #17a2b8;
+  color:#17a2b8;
 }
 .light1 {
   background-color: white;
@@ -230,6 +293,11 @@ body {
   cursor: pointer;
   color: white;
 }
+.dark1:focus{
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px #343a40;
+  color: #343434;;
+}
 .large1 {
   background-color: #007bff;
   font-size: larger;
@@ -243,6 +311,10 @@ body {
   background-color: rgb(4, 103, 216);
   cursor: pointer;
   color: white;
+}
+.large1:focus{
+  background-color: rgb(4, 103, 216);
+  box-shadow: 0px 0px 3px 3px #9ec6f0;
 }
 .large2 {
   background-color: gray;
@@ -258,6 +330,10 @@ body {
   cursor: pointer;
   color: white;
 }
+.large2:focus{
+  background-color: rgb(90, 90, 90);
+  box-shadow: 0px 0px 2px 2px gray;
+}
 .small1 {
   background-color: #007bff;
   font-size: small;
@@ -272,6 +348,10 @@ body {
   cursor: pointer;
   color: white;
 }
+.small1:focus{
+  background-color: rgb(4, 103, 216);
+  box-shadow: 0px 0px 3px 3px #9ec6f0;
+}
 .small2 {
   background-color: gray;
   font-size: small;
@@ -285,6 +365,10 @@ body {
   background-color: rgb(90, 90, 90);
   cursor: pointer;
   color: white;
+}
+.small2:focus{
+  background-color: rgb(90, 90, 90);
+  box-shadow: 0px 0px 2px 2px gray;
 }
 .tank {
   background-color: whitesmoke;
@@ -306,6 +390,10 @@ body {
   cursor: pointer;
   color: white;
 }
+.level2:focus{
+  background-color: rgb(90, 90, 90);
+  box-shadow: 0px 0px 2px 2px gray;
+}
 .level1 {
   background-color: #007bff;
   font-size: larger;
@@ -320,6 +408,10 @@ body {
   background-color: rgb(4, 103, 216);
   cursor: pointer;
   color: white;
+}
+.level1:focus{
+  background-color: rgb(4, 103, 216);
+  box-shadow: 0px 0px 3px 3px #9ec6f0;
 }
 .container {
   width: 285px;
@@ -360,6 +452,12 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.text:focus{
+  border-color: #9ec6f0;
+  outline-color: #9ec6f0;
+  outline-width: thin;
+  box-shadow: inset 0px 0px 0px 1px #9ec6f0;
+}
 .label {
   color: gray;
   font-size: smaller;
@@ -372,6 +470,12 @@ body {
   width: 1090px;
   padding: 10px;
 }
+.txtl:focus{
+  border-color: #9ec6f0;
+  outline-color: #9ec6f0;
+  outline-width: thin;
+  box-shadow: inset 0px 0px 0px 1px #9ec6f0;
+}
 .txtn {
   border-style: solid;
   border-color: #dfdfdf;
@@ -380,6 +484,12 @@ body {
   width: 1090px;
   padding: 10px;
 }
+.txtn:focus{
+  border-color: #9ec6f0;
+  outline-color: #9ec6f0;
+  outline-width: thin;
+  box-shadow: inset 0px 0px 0px 1px #9ec6f0;
+}
 .txts {
   border-style: solid;
   border-color: #dfdfdf;
@@ -387,4 +497,10 @@ body {
   font-size: small;
   width: 1090px;
   padding: 10px;
+}
+.txts:focus{
+ border-color: #9ec6f0;
+  outline-color: #9ec6f0;
+  outline-width: thin;
+  box-shadow: inset 0px 0px 0px 1px #9ec6f0;
 }
